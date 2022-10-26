@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#1 Practical Exercise | JS MOOC Session 4</title>
+  </head>
+  <body>
+    <form name="myFirstform" action="" method="GET">
+      <p>Enter something in the box:</p>
+      <input type="text" name="inputBox" value="" placeholder="Example" />
+      <input
+        type="button"
+        id="submitButton"
+        name="button"
+        value="Click"
+        onClick="printOutput(this.form)"
+      />
+    </form>
+    <p id="return"></p>
+
+    <!-- Issues: there is no indication that an input is required or not, no colours or messages and the code still goes
+        through even though the input is wrong or empty! We can not write an email and it would still go through when it shouldn't. -->
+
+    <script src="main.js"></script>
+  </body>
+</html>

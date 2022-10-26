@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#2 Practical Exercise | JS MOOC Session 4</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <form name="myform" action="" method="GET" onsubmit="return false">
+      <p>Enter something in the box:</p>
+      <input type="text" name="inputbox" value="" />
+      <input
+        type="submit"
+        id="formBtn"
+        name="button"
+        value="Click"
+        onClick="validationFunction(this.form)"
+      />
+    </form>
+    <p id="validationMsg"></p>
+    <!-- Printing output from JS-->
+
+    <script src="main.js"></script>
+  </body>
+</html>

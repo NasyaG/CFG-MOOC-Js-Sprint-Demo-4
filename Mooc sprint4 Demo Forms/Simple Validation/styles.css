@@ -1,0 +1,8 @@
+.timelog {
+    font-weight: bold;
+  }
+  
+  .emptylog {
+    font-weight: bold;
+    color: red;
+  }
